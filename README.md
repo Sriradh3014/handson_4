@@ -2,15 +2,25 @@
 # Problem_0:
 
 The function call stack for fib(5) is fib(5) -> fib(4) -> fib(3) -> fib(2) -> fib(1) -> fib(0) -> fib(1) -> fib(2) -> fib(1) -> fib(0) -> fib(3) -> fib(2) -> fib(1) -> fib(0) -> fib(1) . 
+
 Meaning fib(5) calls fib(4),fib(3)
+
 fib(4) calls fib(3) and fib(2)
+
 fib(3) calls fib(2) and fib(1)
+
 fib(2) calls fib(1) and fib(0)
+
 fib(1) returns 1
+
 fib(0) returns 0
+
 fib(2)= fib(1) + fib(0) = 1+0=1
+
 fib(3) = fib(2) + fib(1) = 1+1=2
+
 fib(4) = fib(3) + fib(2) = 2 +1 =3
+
 fib(5) = fib(4) + fib(3) = 3+2 = 5
 
 # Problem_1:
